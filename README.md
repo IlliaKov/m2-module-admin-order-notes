@@ -4,6 +4,8 @@
 This module adds a Magento 2 plugin that modifies the comment added to an order's status history.
 It adds the Name, Surname and Username of the admin user who created the comment at the end, in parentheses.
 
+![admin_order_notes.png](images%2Fadmin_order_notes.png)
+
 ## Features
 
 * Develops the ability to log the admin user adding a comment against an order;
@@ -12,6 +14,7 @@ It adds the Name, Surname and Username of the admin user who created the comment
 ## How to Recreate in Admin Panel
 
 Sales –> Orders –> Choose Order –> Order Information –> Online Total's Comment Section –> Write Down Your Comment –> See The User Who Wrote It Down.
+
 
 ## Plugins
 Harness the power of plugins for advanced functionality:
