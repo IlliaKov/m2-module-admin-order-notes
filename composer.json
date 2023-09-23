@@ -1,0 +1,31 @@
+{
+  "name": "illia-nova/m2-module-admin-order-notes",
+  "version": "1.0.0",
+  "description": "Admin Order Notes",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-sales": "103.0.*",
+    "magento/module-backend": "102.0.*",
+    "php": ">=7.4||>=8.1"
+  },
+  "authors": [
+    {
+      "name": "Illia Nova (Kovalenko Novychenko)",
+      "email": "illia.kovalenkov@gmail.com",
+      "homepage": "https://github.com/IlliaKov",
+      "role": "Full Stack Developer"
+    }
+  ],
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IlliaNova\\AdminOrderNotes\\": ""
+    }
+  }
+}

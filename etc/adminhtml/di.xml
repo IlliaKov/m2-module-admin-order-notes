@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Add admin name in comment section plugin -->
+    <type name="Magento\Sales\Model\Order">
+        <plugin name="add_admin_name_to_comment" type="IlliaNova\AdminOrderNotes\Plugin\Adminhtml\AddAdminNameToComment" sortOrder="1" />
+    </type>
+    <!-- End of the plugin -->
+</config>
